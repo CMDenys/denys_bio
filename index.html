@@ -11,61 +11,94 @@
 
 <body>
   
-  <h1 style="text-align: center;">Charlie Denys</h1>
+  <h1 style="text-align: center; padding-bottom: 20px">Charlie Denys</h1>
     
-  <main class="container"></main>
-    <div class="row"> 
-      <div class="col-12">
-        <img src="resources/assets/images/under_construction.png" alt="under contstruction">
-      </div>
-    </div>
-
-
-
-
+  <main class="container">
     <div class="row">
-      <div class="col-6"
+      <div class="col-md-6">
+        <article style="padding-bottom: 10px; text-align: center;"><h3>Professional Experience</h3></article>
 
-        <img id="bc" source="./resources/assets/images/bluecrew.png" alt="bluecrew image" style="float:left"> 
-      </div>  
-      <div class="col-sm-4">
-        <h3>Professional Experience</h3>
-        <section id="professional">
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <article>
+                    <a target="_blank" href="https://www.bluecrewjobs.com">
+                      <img src="resources/assets/images/bluecrew.png" alt="bluecrew image"> 
+                    </a>
+                  </article>  
+                </button>
+              </h2>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <ul>
+                <li>
+                  <p "#">Drove product awareness, engagement, and adoption of SaaS staffing platform with a focus on mid-market and enterprise companies across the Chicagoland area.</p>
+                </li>
+                <li>
+                  <p "#">Implemented a consultative sales approach to discover prospect pains and present the strategic value of an innovative mobile technology to C-Suite and Executive levels.</p>
+                </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <article>
+                    <a target="_blank" href="https://www.kforce.com">
+                      <img src="resources/assets/images/kforce.png" alt="kforce image" style="height: 60px; width: 190px"> 
+                    </a>
+                  </article>  
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                <ul>
+                  <li>
+                    <p "#">Managed a sales team consisting of six direct reports and focused on strategic selling to Executive and C-Suite levels.</p>
+                  </li>
+                  <li>
+                    <p "#">Primary responsibilities included new business development, associate KPI success, sales to delivery alignment, lead management, qualification of opportunity and target lists, and consistent communication and team engagement.</p>
+                  </li>
+                  <li>
+                    <p "#">Was a primary decision maker for internal hiring and participated in over 50 internal interviews.</p>
+                  </li>
+                  </ul>
+                
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Collapsible Group Item #3
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
+              </div>
+            </div>
+          </div>
+        </div>
+    
+
+        <div
+        <ul style="text-align: left;" style="padding-top: 20px;">
+          <li style="padding-top: 20px;"><strong>Email:</strong> <a href="#">charlie.denys@gmail.com<a></li>
+          <li><strong>Github:</strong> <a href="#">https://github.com/CMDenys</a></li>
+          <li><strong>Twitter:</strong> <a href="#">https://twitter.com/CharlieDenys</a></li>
+        </ul>
       </div>
-      <div class="col-sm-2"
-        <h3> Bluecrew </h3>
-        <h4>is this working?</h4>
-      </div>
-    </div>
-
-    <ul>
-      <li><strong>Email:</strong> <a href="#">charlie.denys@gmail.com/a></li>
-      <li><strong>Github:</strong> <a href="#">https://github.com/CMDenys</a></li>
-      <li><strong>Twitter:</strong> <a href="#">https://twitter.com/CharlieDenys</a></li>
-    </ul>
-
-    <table>
-      <tr>
-        <th>Books</th>
-        <th>Movies</th>
-        <th>Games</th>
-      </tr>
-      <tr>
-        <td>The Book Thief</td>
-        <td>Last of the Mohicans</td>
-        <td>Celebrity</td>
-      </tr>
-      <tr>
-        <td>Good to Great</td>
-        <td>Gangs of New York</td>
-        <td>Monopoly</td>
-      </tr>
-      <tr>
-        <td>Thinking Fast and Slow</td>
-        <td>Moana</td>
-        <td>Jenga</td>
-      </tr>
-    </table>
+    </row>
   </main>
   
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
