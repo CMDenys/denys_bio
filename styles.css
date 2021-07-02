@@ -1,4 +1,54 @@
+.jumbotron{
+  background-position-x: center;
+  background-image: url("https://cmdwebsite.s3.us-west-1.amazonaws.com/CD_header.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 85%; 
+  height: 300px;
+  border:1px solid; color:black;
+  margin-top: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.summary_container {
+  margin-left: 5%;
+  margin-right: 5%;
+
+
+}
+
+.home-text{
+  color: white;
+}
+.btn-toolbar{
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: center; 
+  padding-bottom: 0px;
+ 
+}
+
+.badge {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 8px;
+}
+
+.prof_container{
+  /* float: left; */
+  margin-left: 5%
+  
+  
+ 
+}
+
+
+/* 
 .form-group{
     display: flex;
     justify-content: center;
-  }
+  } */
+
+
+
+  
